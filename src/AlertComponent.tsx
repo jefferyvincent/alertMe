@@ -2,7 +2,17 @@ import React, {useState, useEffect} from 'react';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
 
-const AlertComponent = (props:any) => {
+interface AlertProps {
+    timeLimit: number;
+    id: any;
+    alertTitle: string;
+    text: string;
+    link: string;
+    alertType: any;
+    dispatch: any;
+}
+
+const AlertComponent = (props:AlertProps) => {
     const [isExpired, setExpired] = useState(false);
     
     const startTimer = () => {
