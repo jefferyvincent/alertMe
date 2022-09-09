@@ -6,3 +6,5 @@ To use this repo:
  - cd into this working directory
  - yarn start
 
+# Preview
+<img src="https://github.com/jefferyvincent/alertMe/blob/main/preview.png" alt="alertme preview"/>
