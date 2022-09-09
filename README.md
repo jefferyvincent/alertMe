@@ -4,6 +4,7 @@ Built entirely using React Hooks and TypeScript.
 
 To use this repo: 
  - cd into this working directory
+ - npm install
  - yarn start
 
 # Preview
